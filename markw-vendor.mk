@@ -37,16 +37,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/markw/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/markw/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/xiaomi/markw/proprietary/bin/mlipayd:system/bin/mlipayd \
     vendor/xiaomi/markw/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/markw/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/xiaomi/markw/proprietary/bin/mtd:system/bin/mtd \
     vendor/xiaomi/markw/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/markw/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/markw/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/xiaomi/markw/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/xiaomi/markw/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
-    vendor/xiaomi/markw/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/xiaomi/markw/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/markw/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/markw/proprietary/bin/radish:system/bin/radish \
@@ -54,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/markw/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/markw/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/xiaomi/markw/proprietary/bin/vsimd:system/bin/vsimd \
     vendor/xiaomi/markw/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/markw/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/markw/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -296,7 +292,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/usr/keylayout/synaptics_dsx.kl:system/usr/keylayout/synaptics_dsx.kl \
     vendor/xiaomi/markw/proprietary/usr/keylayout/synaptics_dsxv26.kl:system/usr/keylayout/synaptics_dsxv26.kl \
     vendor/xiaomi/markw/proprietary/usr/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl \
-    vendor/xiaomi/markw/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/xiaomi/markw/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/xiaomi/markw/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/markw/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
