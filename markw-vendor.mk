@@ -163,6 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/firmware/qtc800s.cfg:system/etc/firmware/qtc800s.cfg \
     vendor/xiaomi/markw/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/xiaomi/markw/proprietary/etc/flp.conf:system/etc/flp.conf \
+    vendor/xiaomi/markw/proprietary/etc/ft5346_biel_1080p.ini:system/etc/ft5346_biel_1080p.ini \
     vendor/xiaomi/markw/proprietary/etc/ft5346_oufei_1080p.ini:system/etc/ft5346_oufei_1080p.ini \
     vendor/xiaomi/markw/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/xiaomi/markw/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
