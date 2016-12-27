@@ -16,12 +16,14 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/xiaomi/markw/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/xiaomi/markw/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/markw/proprietary/bin/cnd:system/bin/cnd \
     vendor/xiaomi/markw/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/markw/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/markw/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/markw/proprietary/bin/dun-server:system/bin/dun-server \
+    vendor/xiaomi/markw/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/markw/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/markw/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/xiaomi/markw/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -35,11 +37,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/markw/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/markw/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/xiaomi/markw/proprietary/bin/mlipayd:system/bin/mlipayd \
     vendor/xiaomi/markw/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/markw/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/xiaomi/markw/proprietary/bin/mtd:system/bin/mtd \
     vendor/xiaomi/markw/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/markw/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/markw/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/xiaomi/markw/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/xiaomi/markw/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/xiaomi/markw/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/xiaomi/markw/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/markw/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/markw/proprietary/bin/radish:system/bin/radish \
@@ -47,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/markw/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/markw/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/xiaomi/markw/proprietary/bin/vsimd:system/bin/vsimd \
     vendor/xiaomi/markw/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/markw/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/markw/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -229,13 +237,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/xiaomi/markw/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/xiaomi/markw/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/xiaomi/markw/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/markw/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/markw/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/markw/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/xiaomi/markw/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/xiaomi/markw/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/xiaomi/markw/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/markw/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/markw/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+    vendor/xiaomi/markw/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/xiaomi/markw/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
@@ -285,6 +296,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/usr/keylayout/synaptics_dsx.kl:system/usr/keylayout/synaptics_dsx.kl \
     vendor/xiaomi/markw/proprietary/usr/keylayout/synaptics_dsxv26.kl:system/usr/keylayout/synaptics_dsxv26.kl \
     vendor/xiaomi/markw/proprietary/usr/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl \
+    vendor/xiaomi/markw/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/xiaomi/markw/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/xiaomi/markw/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/markw/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -1506,6 +1518,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     CNEService \
     com.qualcomm.location \
+    dpmserviceapp \
     qcrilmsgtunnel \
     colorservice \
     ims \
