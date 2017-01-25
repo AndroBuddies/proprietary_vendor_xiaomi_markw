@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -248,6 +248,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
+    vendor/xiaomi/markw/proprietary/lib64/hw/lights.msm8953.so:system/lib64/hw/lights.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/xiaomi/markw/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/xiaomi/markw/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
@@ -259,6 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/markw/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
+    vendor/xiaomi/markw/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/markw/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/markw/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
