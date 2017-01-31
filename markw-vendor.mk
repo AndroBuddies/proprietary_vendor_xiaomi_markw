@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/markw/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/xiaomi/markw/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/xiaomi/markw/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/xiaomi/markw/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/markw/proprietary/bin/gx_fpcmd:system/bin/gx_fpcmd \
     vendor/xiaomi/markw/proprietary/bin/gx_fpd:system/bin/gx_fpd \
